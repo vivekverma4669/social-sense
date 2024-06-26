@@ -28,7 +28,7 @@ import Image from "next/image";
 
 
         <li>
-          <p to="/Dashboard">Dashboard</p>
+          <p to="/Dashboard" id="active">Dashboard</p>
         </li>
 
         <li>

@@ -82,9 +82,10 @@ const Page = () => {
     <div>
       <Navbar/>
 
+
      {/* cards */}
-      <div style={{display :'flex' , justifyContent :'space-between' }}>
-      <div className="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 p-4" style={{width :'50%' }}>
+      <div style={{display :'flex' , justifyContent :'space-between' , flexWrap :'wrap' }}>
+      <div className="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 p-4" style={{width :'50%' , minWidth :"300px"}}>
       {demoData.map((data, index) => (
         <Card
           key={index}
@@ -98,21 +99,22 @@ const Page = () => {
 
     
     {/* bar Chart */}
-    <div className="max-w-screen-lg mx-auto p-4" style={{width :"50%" }}>
+    <div className="max-w-screen-lg mx-auto p-4" style={{width :"50%" , minWidth :"350px"}}>
         <BarChart data={monthData} />
       </div>
+
       </div>
 
 
-    <div  style={{display :'flex' , justifyContent :'space-between' }}>
+    <div  style={{display :'flex' , justifyContent :'space-between' , flexWrap :'wrap-reverse'}}>
        
         {/* Line Chart Section */}
-        <div className="max-w-screen-lg mx-auto p-2" style={{width:"50%" , marginLeft :'-20px'}}>
+        <div className="max-w-screen-lg mx-auto p-2" style={{width:"50%" , marginLeft :'-20px' , minWidth :"300px"}}>
         <LineChart data={data} />
       </div>
 
      {/* Doughnut Chart Section */}
-     <div className="max-w-screen-lg mx-auto p-4" style={{width :"350px" }}>
+     <div className="max-w-screen-lg mx-auto p-4" style={{width :"350px" , minWidth :"300px"}}>
         <DoughnutChart data={ageSegmentData} />
       </div>
 

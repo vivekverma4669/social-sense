@@ -1,15 +1,18 @@
-
+#active{
+  background-color: rgb(175, 163, 92);
+}
 nav {
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eaeff1;
+  background-color: rgb(9, 9, 8);
   color: rgb(215, 215, 48);
   position: sticky;
   top: 0;
   padding: 5px;
 }
+
 
 nav .title {
   font-size: 1.2rem;
@@ -31,7 +34,7 @@ nav ul li p {
   font-weight: bolder;
   display: block;
   text-decoration: none;
-  color: rgb(38, 35, 35);
+  color: rgb(255, 255, 255);
   padding: 0.5rem;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
