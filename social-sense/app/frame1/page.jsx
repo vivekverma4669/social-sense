@@ -17,7 +17,7 @@ import Image from "next/image";
 
 
 
-const Page = () => {
+const Page= () => {
   const [solidColor, setSolidColor] = useState("");
   const [linearGradient, setLinearGradient] = useState("");
   const [radialGradient, setRadialGradient] = useState("");
