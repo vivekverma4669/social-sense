@@ -366,7 +366,7 @@ const Page= () => {
               >
               <div> <img src=""/></div>
                 <div className="w-20 h-20 rounded-full overflow-hidden mb-4 ml-4">
-                   <img src="https://i.ibb.co/1r9Hhxs/Whats-App-Image-2024-01-17-at-20-04-51-344e3480.jpg" alt="Profile" /> 
+                   <Image src="https://i.ibb.co/1r9Hhxs/Whats-App-Image-2024-01-17-at-20-04-51-344e3480.jpg" alt="Profile" /> 
                 </div>
 
                 <div className="ml-4">
