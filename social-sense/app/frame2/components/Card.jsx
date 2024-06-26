@@ -1,17 +1,8 @@
 /** @format */
-
 import React from "react";
-import { LucideIcon } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "./utils";
 
-export type CardProps = {
-  label: string;
-  icon: LucideIcon;
-  amount: string;
-  discription: string;
-};
-
-export default function Card(props: CardProps) {
+export default function Card(props) {
   return (
     <CardContent>
       <section className="flex justify-between gap-2">
@@ -27,8 +18,7 @@ export default function Card(props: CardProps) {
     </CardContent>
   );
 }
-
-export function CardContent(props: React.HTMLAttributes<HTMLDivElement>) {
+export function CardContent(props) {
   return (
     <div
       {...props}
