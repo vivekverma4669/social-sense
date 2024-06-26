@@ -26,25 +26,25 @@ import "./Nav.css";
 
 
         <li>
-          <p to="/blogs">Blogs</p>
+          <p to="/Dashboard">Dashboard</p>
         </li>
 
         <li>
-          <p to="/myBlogs">My-Blogs</p>
+          <p to="/projects">projects</p>
         </li>
 
 
         <li>
-          <p to="/about">About</p>
+          <p to="/tasks">Tasks</p>
         </li>
         
         <li>
-          <p to="/create">Create</p>
+          <p to="/create">Users</p>
         </li>
         </ul>
 
        <div   id="log" style={{marginRight: "30px",  display : menuOpen? "block" : ""}} >
-       <h3>   <p>  Login</p>   </h3> 
+       <h3> <img   src="https://cdn.vectorstock.com/i/500p/17/61/male-avatar-profile-picture-vector-10211761.jpg" style={{width :"45px" , border :"2px solid black" , borderRadius :"50px"}} />   </h3> 
        </div>
       
     </nav>                   
