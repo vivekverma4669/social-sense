@@ -1,9 +1,6 @@
 <h1>Project Name: Dynamic Theme Dashboard</h1>
-
 frame 1 :  https://social-sense-phi.vercel.app/
-
 <br/>
-
 frame 2 :  https://social-sense-phi.vercel.app/frame2
 
    <h2>Introduction</h2>
@@ -22,6 +19,9 @@ frame 2 :  https://social-sense-phi.vercel.app/frame2
         </li>
     </ul>
 
+   = <img src="https://drive.google.com/uc?id=1aN3-sHCBk9Zxy6o4y4kbUZYeFGjWpN5u" alt="First Image">
+
+
    <h3>Frame 2: Real-Time Data Dashboard</h3>
     <ul>
         <li><strong>Objective:</strong> Create a dashboard that populates and updates data in real-time based on user interactions and external data sources.</li>
@@ -32,6 +32,8 @@ frame 2 :  https://social-sense-phi.vercel.app/frame2
             </ul>
         </li>
     </ul>
+    <img src="https://drive.google.com/uc?id=1qda9P6d7_rEOfIgxd7x2k0L6qJeuZK_q" alt="Second Image">
+
 
    <h2>Overall Expectations</h2>
     <ul>
