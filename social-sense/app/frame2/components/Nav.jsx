@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useState } from "react";
 import "./Nav.css";
 import Image from "next/image";
@@ -18,7 +19,7 @@ import Image from "next/image";
       <ul className={menuOpen ? "open" : ""}>
 
        <li>
-          <p><Image src="https://cdn.pixabay.com/animation/2023/01/20/11/31/11-31-18-13_512.gif" width="30px"/> </p>
+          <p><img src="https://cdn.pixabay.com/animation/2023/01/20/11/31/11-31-18-13_512.gif" width="30px"/> </p>
         </li>
 
        <li>
@@ -45,7 +46,7 @@ import Image from "next/image";
         </ul>
 
        <div   id="log" style={{marginRight: "30px",  display : menuOpen? "block" : ""}} >
-       <h3> <Image src="https://cdn.vectorstock.com/i/500p/17/61/male-avatar-profile-picture-vector-10211761.jpg" style={{width :"45px" , border :"2px solid black" , borderRadius :"50px"}} />   </h3> 
+       <h3> <img src="https://cdn.vectorstock.com/i/500p/17/61/male-avatar-profile-picture-vector-10211761.jpg" style={{width :"45px" , border :"2px solid black" , borderRadius :"50px"}} />   </h3> 
        </div>
       
     </nav>                   

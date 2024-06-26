@@ -47,11 +47,12 @@ const Page= () => {
 
 
   return (
-    <div className="flex h-screen">
-      <div className="w-1/8 bg-gray-100 p-4">
+    <div className="flex h-screen"  >
+      <div className="w-1/8 bg-gray-100 p-4  md:block hidden">
         <div className="text-xl font-bold mb-6">
+
         <img src="https://adash.io/wp-content/uploads/2021/06/Your-Logo-here.png" width="100px"/></div>
-        <nav className="space-y-4">
+        <nav className="space-y-4 ">
 
               <div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <MdOutlineSpaceDashboard className="text-2xl text-gray-600 group-hover:text-white " />
@@ -116,9 +117,9 @@ const Page= () => {
         </div>
 
       {/* Main Content */}
-      <div className="flex-1 p-8">
+      <div className="flex-1 p-8">  
 
-        <div className="flex justify-between items-center mb-7 " >
+        <div className="flex justify-between items-center mb-7 ">
           <h1 className="text-2xl font-bold mr-20">Themes</h1>
           <div className="flex items-center border-2 bg-gray-250 rounded-md p-1.5">
             <span className="mr-4 " >Kushagra Singh</span>
@@ -126,7 +127,7 @@ const Page= () => {
           </div>
         </div>
 
-        <div className="bg-white p-3 rounded">
+        <div className="bg-white p-3 rounded w-full md:w-auto" >
           <div
             className="bg-slate-100 border-slate-50 rounded flex justify-between content-center"
             style={{ border: "1px solid black" }}
@@ -143,8 +144,8 @@ const Page= () => {
           </div>
         </div>
 
-        <div className="flex gap-10">
-          <div className="bg-white p-4 rounded shadow w-1/8">
+        <div className="flex gap-10  w-full  md:w-auto bd:block" style={{display :'flex' , flexWrap :"wrap"}}> 
+          <div className="bg-white p-4 rounded shadow w-1/8 block md:block  " style={{minWidth :'280px' }}> 
             <div className="grid grid-rows-4 gap-1">
               {/* Solids */}
               <div className="mb-3">
@@ -357,7 +358,7 @@ const Page= () => {
             </div>
           </div>
 
-          <div className="mt-4 w-3/4">
+          <div className="w-auto " style={{minWidth :"300px" , width :"700px"}} >
             <div
               className={`bg-white p-4 rounded shadow ${solidColor} ${linearGradient} ${radialGradient}`}
             >
@@ -366,7 +367,7 @@ const Page= () => {
               >
               <div> <img src=""/></div>
                 <div className="w-20 h-20 rounded-full overflow-hidden mb-4 ml-4">
-                   <Image src="https://i.ibb.co/1r9Hhxs/Whats-App-Image-2024-01-17-at-20-04-51-344e3480.jpg" alt="Profile" /> 
+                   <img src="https://i.ibb.co/1r9Hhxs/Whats-App-Image-2024-01-17-at-20-04-51-344e3480.jpg" alt="Profile" /> 
                 </div>
 
                 <div className="ml-4">

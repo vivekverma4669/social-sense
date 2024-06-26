@@ -1,26 +1,3 @@
-// import React from 'react';
-// import Link from 'next/link';
-
-// const Home = () => {
-//   return (
-//      <>
-     
-//         <Link href="/frame1">
-//         Go to Frame1
-//         </Link>
-       
-
-    
-//         <Link href="/frame2">
-//          Go to Frame2
-//         </Link>
-//         </>
-    
-//   );
-// }
-
-// export default Home;
-
 
 import Image from "next/image";
 
@@ -67,7 +44,6 @@ export default function Home() {
         <a
           href="/frame1"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
@@ -82,7 +58,6 @@ export default function Home() {
         <a
           href="/frame2"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
           rel="noopener noreferrer"
         >
 
