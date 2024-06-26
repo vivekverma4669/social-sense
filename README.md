@@ -1,5 +1,8 @@
 <h1>Project Name: Dynamic Theme Dashboard</h1>
 
+frame 1 :  https://social-sense-phi.vercel.app/
+frame 2 :  https://social-sense-phi.vercel.app/frame2
+
    <h2>Introduction</h2>
     <p>Welcome to the Dynamic Theme Dashboard project! In this project, students will create a user interface that allows dynamic theme changes and real-time data updates. This README will guide you through the core components and requirements of the project. The primary goal is to evaluate the ability to create responsive, dynamic, and user-friendly interfaces.</p>
 
